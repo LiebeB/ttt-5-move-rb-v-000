@@ -23,7 +23,7 @@ input_to_index(String)
 puts  String.to_s - 1
 
 move(board, index, user_marker = "X")
-  board[index.to_i] = user_marker
+  board[index.to_s] = user_marker
   return board
 
 new_board = move(board, 0, "X")
