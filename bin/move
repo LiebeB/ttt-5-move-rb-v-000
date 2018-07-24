@@ -19,7 +19,7 @@ puts "Where would you like to go?"
 input = gets.strip
 index = input_to_index(input)
 
-input_to_index(string)
+input_to_index(String)
 puts  String.to_i - 1
 
 move(board, index, user_marker = "X")
