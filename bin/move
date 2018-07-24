@@ -16,4 +16,4 @@ index = input_to_index(input)
 
 move(board, index, user_marker = "X")
 
-display_board = move(board)
+display_board = move(new_board)
